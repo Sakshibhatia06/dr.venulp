@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Timer</title>
+    <style>
+        .testimonials-section {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        
+        .section-title {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .testimonials-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial-box {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+        
+        .testimonial-box iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+        }
+        
+        .testimonial-box p {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .testimonial-box {
+                width: 100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="client-testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-row">
+                <div class="testimonial-box">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                    <p>John Doe: "This workshop changed my life! My sugar levels are under control now."</p>
+                </div>
+                <div class="testimonial-box">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                    <p>Jane Smith: "Highly recommend this program for anyone struggling with diabetes."</p>
+                </div>
+            </div>
+            <div class="testimonials-row">
+                <div class="testimonial-box">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+                    <p>Michael Lee: "The nutrition advice was eye-opening. I'm feeling so much healthier now!"</p>
+                </div>
+                <div class="testimonial-box">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+                    <p>Emily Davis: "Incredible experience! The team is supportive and knowledgeable."</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>
