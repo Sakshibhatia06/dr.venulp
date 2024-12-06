@@ -1340,4 +1340,7 @@
         text-align: center;
         top: 0;
     }
+    .testimonials-row1 {
+       flex-wrap: wrap;
+    }
 }
