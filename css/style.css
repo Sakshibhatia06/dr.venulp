@@ -67,6 +67,18 @@
     color: #555;
     text-align: center;
 }
+.testimonials-row1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial-box img{
+    width: 100%;
+    height: 290px;
+    border-radius: 8px;
+}
 
 
 #spinner {
