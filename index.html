@@ -29,6 +29,25 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1853479615182233');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1853479615182233&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -90,7 +109,8 @@
                     </div>
                 </div>
                 <div>
-                    <a href="https://rzp.io/rzp/SZMbCZ46" class="btn1 flex2 btn btn-primary rounded-pill text-white py-2 px-4 mb-2"> TAKE DIABETES
+                    <a href="https://rzp.io/rzp/SZMbCZ46"
+                        class="btn1 flex2 btn btn-primary rounded-pill text-white py-2 px-4 mb-2"> TAKE DIABETES
                         REVERSAL CHALLENGE NOW AT JUST RS.49/- </a>
                 </div>
             </div>
@@ -273,16 +293,14 @@
                     <div class="appointment-form rounded p-5">
                         <p class="fs-4 text-uppercase text-primary">Get In Touch</p>
                         <h3 class="mb-4">ENROLL NOW</h3>
-                        <form action="" method="POST">
+                        <form action="contact.php" method="post" class="php-email-form">
                             <div class="row gy-3 gx-4">
                                 <div class="col-xl-6">
-                                    <input type="text"
-                                        class="form-control py-3 border-primary bg-transparent"
+                                    <input type="text" class="form-control py-3 border-primary bg-transparent"
                                         placeholder="Full Name">
                                 </div>
                                 <div class="col-xl-6">
-                                    <input type="email"
-                                        class="form-control py-3 border-primary bg-transparent"
+                                    <input type="email" class="form-control py-3 border-primary bg-transparent"
                                         placeholder="Email">
                                 </div>
                                 <div class="col-xl-6">
@@ -303,7 +321,7 @@
                                         id="area-text" cols="30" rows="5" placeholder="Write Comments"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">
+                                    <button type="button" class="btn btn-primary w-100 py-3 px-5">
                                         <a href="https://rzp.io/rzp/SZMbCZ46">ENROLL NOW FOR RS 49/-</a></button>
                                 </div>
                             </div>
@@ -355,9 +373,11 @@
                                 Diabetes Meditations.</p>
                             <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> 9500+ kg Body Weight
                                 Reduced.</p>
-                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>2350+ Insulin Units Tapered or Stopped</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>2350+ Insulin Units
+                                Tapered or Stopped</p>
                         </div>
-                        <a href="https://rzp.io/rzp/SZMbCZ46" class="btn btn-primary rounded-pill text-white py-3 px-5">TAKE DIABETES REVERSAL
+                        <a href="https://rzp.io/rzp/SZMbCZ46"
+                            class="btn btn-primary rounded-pill text-white py-3 px-5">TAKE DIABETES REVERSAL
                             CHALLENGE NOW AT JUST RS.49/-</a>
                     </div>
                 </div>
@@ -373,8 +393,8 @@
                 <div class="sub-style">
                     <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
                 </div>
-                <h1 class="mb-4">Get Your Life Style Back</h1>
-                <p class="mb-0">This Diabetes Reversal Challenge Is For You If You Want Freedom From....</p>
+                <h1 class="mb-4">Get Your Health Back</h1>
+                <p class="mb-0">This Diabetes Reversal Challenge Is For You, If You Want Freedom From....</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
@@ -466,7 +486,8 @@
                 </div>
                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
                     <h4 style="margin-bottom: 10px;">Are You Facing Any Of These Challenges?</h4>
-                    <a href="https://rzp.io/rzp/SZMbCZ46" class="btn btn-primary rounded-pill text-white py-3 px-5">TAKE DIABETES REVERSAL
+                    <a href="https://rzp.io/rzp/SZMbCZ46" class="btn btn-primary rounded-pill text-white py-3 px-5">TAKE
+                        DIABETES REVERSAL
                         CHALLENGE NOW AT JUST RS.49/-</a>
                 </div>
             </div>
@@ -523,6 +544,37 @@
             </div>
         </div>
     </section>
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="sub-style">
+                    <h4 class="sub-title px-3 mb-0">Some Testimonials</h4>
+                </div>
+            </div>
+            <div class="testimonials-row1">
+                <div class="testimonial-box">
+                    <img src="./img/feedback2.jpeg">
+                </div>
+                <div class="testimonial-box">
+                    <img src="./img/feedback3.jpeg">
+                </div>
+                <div class="testimonial-box">
+                    <img src="./img/feedback6.jpeg">
+                </div>
+            </div>
+            <div class="testimonials-row1">
+                <div class="testimonial-box">
+                    <img src="./img/feedback4.jpeg">
+                </div>
+                <div class="testimonial-box">
+                    <img src="./img/feedback5.jpeg">
+                </div>
+                <div class="testimonial-box">
+                    <img src="./img/feedback1.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Testimonial Start -->
     <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
@@ -531,7 +583,7 @@
                 <div class="sub-style">
                     <h4 class="sub-title text-white px-3 mb-0">Testimonial</h4>
                 </div>
-                <h1 class="mb-4">What Clients are Say</h1>
+                <h1 class="mb-4">What Our Clients Says</h1>
             </div>
             <div class="testimonial-carousel owl-carousel">
                 <div class="testimonial-item">
